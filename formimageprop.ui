@@ -279,6 +279,12 @@
             <layout class="QGridLayout" name="gridLayout_12">
              <item row="0" column="1">
               <widget class="QSlider" name="horizontalSliderGrayScaleR">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
                <property name="minimum">
                 <number>0</number>
                </property>
@@ -326,6 +332,12 @@
              </item>
              <item row="1" column="1">
               <widget class="QSlider" name="horizontalSliderGrayScaleG">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
                <property name="minimum">
                 <number>0</number>
                </property>
@@ -339,6 +351,12 @@
              </item>
              <item row="2" column="1">
               <widget class="QSlider" name="horizontalSliderGrayScaleB">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
                <property name="minimum">
                 <number>0</number>
                </property>
@@ -396,6 +414,12 @@
         </item>
         <item row="5" column="1">
          <widget class="QSlider" name="horizontalSliderSharpenBlur">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
           <property name="toolTip">
            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Smooth or sharpen the image (it uses the gaussian distribution  in both cases).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
           </property>
@@ -426,6 +450,12 @@
         </item>
         <item row="3" column="1">
          <widget class="QSlider" name="horizontalSliderMediumDetails">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
           <property name="toolTip">
            <string>The same as above.</string>
           </property>
@@ -453,6 +483,12 @@
         </item>
         <item row="2" column="1">
          <widget class="QSlider" name="horizontalSliderSmallDetails">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
           <property name="toolTip">
            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Enhance small details. This option is connected with &lt;span style=&quot; font-weight:600;&quot;&gt;Depth&lt;/span&gt; scroll bar. &lt;/p&gt;&lt;p&gt;Note that if &lt;span style=&quot; font-weight:600;&quot;&gt;Depth&lt;/span&gt; scroll bar is set to zero, this parameter does not affect the image.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
           </property>
@@ -480,6 +516,12 @@
         </item>
         <item row="1" column="1">
          <widget class="QSlider" name="horizontalSliderBlurNoPasses">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
           <property name="toolTip">
            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Basically it works like gamma correction. &lt;/p&gt;&lt;p&gt;Especially useful in case of height texture.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
           </property>
@@ -509,6 +551,12 @@
         </item>
         <item row="0" column="1">
          <widget class="QSlider" name="horizontalSliderRemoveShadingGaussIter">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
           <property name="toolTip">
            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;In case if option &lt;span style=&quot; font-weight:600;&quot;&gt;Remove shading&lt;/span&gt; is enabled it changes the number of iterations to be performed.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
           </property>
@@ -544,6 +592,12 @@
         </item>
         <item row="4" column="1">
          <widget class="QSlider" name="horizontalSliderDetailDepth">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
           <property name="toolTip">
            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;It changes the depth of the &lt;span style=&quot; font-weight:600;&quot;&gt;Small details&lt;/span&gt; and &lt;span style=&quot; font-weight:600;&quot;&gt;Medium details&lt;/span&gt; effect.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
           </property>
@@ -574,6 +628,12 @@
         </item>
         <item row="6" column="1">
          <widget class="QSlider" name="horizontalSliderNormalsStep">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
           <property name="toolTip">
            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;It changes the steepness of the normal image in %.&lt;/p&gt;&lt;p&gt;For example 100% means that the image is not changed. 0% means that the  image is completely flat.  &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
           </property>
@@ -620,6 +680,12 @@
         </item>
         <item row="0" column="1">
          <widget class="QSlider" name="horizontalSliderHeightProcMinValue">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
           <property name="maximum">
            <number>200</number>
           </property>
@@ -650,6 +716,12 @@
         </item>
         <item row="1" column="1">
          <widget class="QSlider" name="horizontalSliderHeightProcMaxValue">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
           <property name="maximum">
            <number>200</number>
           </property>
@@ -677,6 +749,12 @@
         </item>
         <item row="2" column="1">
          <widget class="QSlider" name="horizontalSliderHeightAveRadius">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
           <property name="minimum">
            <number>1</number>
           </property>
@@ -822,6 +900,12 @@
         </item>
         <item row="0" column="2">
          <widget class="QSlider" name="horizontalSliderSpeculatW1">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
           <property name="toolTip">
            <string>Radius of the first gaussian</string>
           </property>
@@ -844,6 +928,12 @@
         </item>
         <item row="1" column="2">
          <widget class="QSlider" name="horizontalSliderSpecularW2">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
           <property name="toolTip">
            <string>Radius of the second gaussian</string>
           </property>
@@ -866,6 +956,12 @@
         </item>
         <item row="2" column="2">
          <widget class="QSlider" name="horizontalSliderSpecularRadius">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
           <property name="toolTip">
            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Mask radius. Usually it is greater than &lt;span style=&quot; font-weight:600;&quot;&gt;Weight #1&lt;/span&gt; and &lt;span style=&quot; font-weight:600;&quot;&gt;Weight #2&lt;/span&gt;. But here you can choose any value.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
           </property>
@@ -920,6 +1016,12 @@
         </item>
         <item row="3" column="2">
          <widget class="QSlider" name="horizontalSliderSpecularContrast">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
           <property name="toolTip">
            <string>It changes the contrast of the image.</string>
           </property>
@@ -965,6 +1067,12 @@
         </item>
         <item row="4" column="2">
          <widget class="QSlider" name="horizontalSliderSpecularAmplifier">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
           <property name="toolTip">
            <string>It multiplies the output image by a given number.</string>
           </property>
@@ -1010,6 +1118,12 @@
         </item>
         <item row="5" column="2">
          <widget class="QSlider" name="horizontalSliderSpecularBrightness">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
           <property name="minimum">
            <number>-100</number>
           </property>
@@ -1046,6 +1160,12 @@
         </item>
         <item row="0" column="1">
          <widget class="QSlider" name="horizontalSliderSSAONoIters">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
           <property name="toolTip">
            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Radius of the mask. Large number will lead to poor performance. For small images (about 1024x1024) this should not be a problem, but for larger you should use this parameter carefully.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
           </property>
@@ -1081,6 +1201,12 @@
         </item>
         <item row="2" column="1">
          <widget class="QSlider" name="horizontalSliderSSAODepth">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
           <property name="toolTip">
            <string>It changes the scale of the effect. </string>
           </property>
@@ -1100,6 +1226,12 @@
         </item>
         <item row="1" column="1">
          <widget class="QSlider" name="horizontalSliderSSAOIntensity">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
           <property name="toolTip">
            <string>It changes the contrast of the image. </string>
           </property>
@@ -1119,6 +1251,12 @@
         </item>
         <item row="3" column="1">
          <widget class="QSlider" name="horizontalSliderSSAOBias">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
           <property name="toolTip">
            <string>This again allows you to control the contrast of the image.</string>
           </property>
@@ -1254,6 +1392,12 @@
         </item>
         <item row="0" column="1">
          <widget class="QSlider" name="horizontalSliderConversionHNDepth">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
           <property name="toolTip">
            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;It changes the depth of the calculated normal map in pixels unit.&lt;/p&gt;&lt;p&gt;For example: lets assume that you have picture of wall of size 1x1 m&lt;span style=&quot; vertical-align:super;&quot;&gt;2 &lt;/span&gt; in real world with bricks pattern and your image has size 1024x1024 pixels. Then you want to generate normals for texture which depth is 3cm = 0.03 m. So the depth in pixels is 0.03*1024 = 30.72 ~ 31 pixels. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
           </property>
@@ -1350,6 +1494,12 @@
        <layout class="QGridLayout" name="gridLayout_6">
         <item row="2" column="1">
          <widget class="QSlider" name="horizontalSliderNormalToHeightItersLarge">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
           <property name="toolTip">
            <string>Number of iterations done on large grid.</string>
           </property>
@@ -1360,6 +1510,12 @@
         </item>
         <item row="5" column="1">
          <widget class="QSlider" name="horizontalSliderNormalToHeightItersVerySmall">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
           <property name="toolTip">
            <string>Number of iterations done on very small grid (nearest neighbours).</string>
           </property>
@@ -1384,6 +1540,12 @@
         </item>
         <item row="4" column="1">
          <widget class="QSlider" name="horizontalSliderNormalToHeightItersSmall">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
           <property name="toolTip">
            <string>Number of iterations done on  small grid (second nearest neighbours).</string>
           </property>
@@ -1415,6 +1577,12 @@
         </item>
         <item row="1" column="1">
          <widget class="QSlider" name="horizontalSliderNormalToHeightItersVeryLarge">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
           <property name="toolTip">
            <string>Number of iterations done on very large grid.</string>
           </property>
@@ -1444,6 +1612,12 @@
         </item>
         <item row="3" column="1">
          <widget class="QSlider" name="horizontalSliderNormalToHeightItersMedium">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
           <property name="toolTip">
            <string>Number of iterations done on medium grid.</string>
           </property>
@@ -1489,6 +1663,12 @@
         </item>
         <item row="0" column="1">
          <widget class="QSlider" name="horizontalSliderNormalToHeightItersHuge">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
           <property name="toolTip">
            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Number of iterations done on huge grid.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
           </property>
@@ -1548,6 +1728,12 @@
        <layout class="QGridLayout" name="gridLayout_7">
         <item row="2" column="1">
          <widget class="QSlider" name="horizontalSliderBMNoIters">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
           <property name="toolTip">
            <string>Set the number of iterations of the procedure.</string>
           </property>
@@ -1592,6 +1778,12 @@
         </item>
         <item row="5" column="1">
          <widget class="QSlider" name="horizontalSliderConversionBaseMapMixing">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
           <property name="toolTip">
            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Set the blending with the non processed normal image (ie. base image after sobel operator applied). This parameter changes the weight of the blending on edges. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
           </property>
@@ -1625,6 +1817,12 @@
         </item>
         <item row="3" column="1">
          <widget class="QSlider" name="horizontalSliderBaseMapAmplidute">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
           <property name="toolTip">
            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Set the amplitude of the normals. &lt;/p&gt;&lt;p&gt;Sometimes very small value of the amplitude parameter helps to obtain better image. Don't worry if the image you see is totally blue. You can change the &lt;span style=&quot; font-weight:600;&quot;&gt;normal step&lt;/span&gt; parameter after conversion in the &lt;span style=&quot; font-weight:600;&quot;&gt;normal&lt;/span&gt; tab.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
           </property>
@@ -1658,6 +1856,12 @@
         </item>
         <item row="1" column="1">
          <widget class="QSlider" name="horizontalSliderConversionBMFilterRadius">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
           <property name="toolTip">
            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Set the normal extraction radius. Large radius = larger extraction but also larger blur of image.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
           </property>
@@ -1697,6 +1901,12 @@
         </item>
         <item row="4" column="1">
          <widget class="QSlider" name="horizontalSliderConversionBaseMapFlatness">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
           <property name="toolTip">
            <string>It makes &quot;hills&quot; more flat.</string>
           </property>
@@ -1716,6 +1926,12 @@
         </item>
         <item row="0" column="1">
          <widget class="QSlider" name="horizontalSliderConversionBMPreSmoothRadius">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
           <property name="toolTip">
            <string>Smooth the image before processing.</string>
           </property>
@@ -1752,6 +1968,12 @@
         </item>
         <item row="6" column="1">
          <widget class="QSlider" name="horizontalSliderConversionBaseMapBlending">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
           <property name="toolTip">
            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Set the blending with the non processed normal image (ie. base image after sobel operator applied) but here standart mixing is applied.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
           </property>
